@@ -1,0 +1,39 @@
+Arguments:
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js install --no-progress
+
+PATH:
+  /Users/plkhanal161/.asdf/installs/ruby/2.5.0/lib/ruby/gems/2.5.0/bin:/Users/plkhanal161/.asdf/installs/ruby/2.5.0/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/plkhanal161/.asdf/bin:/Users/plkhanal161/.asdf/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version:
+  1.12.3
+
+Node version:
+  8.11.1
+
+Platform:
+  darwin x64
+
+Trace:
+  SyntaxError: /Users/plkhanal161/Desktop/chatroom/package.json: Unexpected token : in JSON at position 9
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest:
+  {
+    "name": "Messager",
+    "private": true,
+    "dependencies": {}
+    "scripts": {
+      "start": "node index.js"
+    },
+  }
+
+yarn manifest:
+  No manifest
+
+Lockfile:
+  No lockfile
